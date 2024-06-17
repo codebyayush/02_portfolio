@@ -1,11 +1,12 @@
 import React from "react";
+import './mediaquery.css';
 
 const Home = () => {
   return (
     <>
-      <div className=" flex h-screen items-center justify-center text-center">
-        <div className=" m-10">
-          <img src="/me.png" className="h-96 w-96 rounded-full shadow-xl" alt="" />
+      <div id="home-div" className=" flex h-screen items-center justify-center text-center">
+        <div className="m-10">
+          <img id="main-img" src="/me.png" className="h-96 w-96 rounded-full shadow-xl" alt="" />
         </div>
         <div>
           <p className="text-lg m-2">Hello, I'm</p>

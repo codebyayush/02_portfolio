@@ -1,0 +1,9 @@
+/* it will make scrolling smoother when 
+clicking on page section */
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+}

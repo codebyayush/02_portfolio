@@ -1,15 +1,20 @@
-import React from 'react'
-import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./components/home/Home";
+import "./app.css";
 
 function App() {
-
   return (
     <>
-      <Navbar/>
-      <Home/>
+      <section id="Homepage">
+        <Navbar />
+        <Home />
+      </section>
+      <section id="About">About</section>
+      <section id="Projects">Projects</section>
+      <section id="Contact">Contact</section>
     </>
-  )
+  );
 }
 
 export default App;
