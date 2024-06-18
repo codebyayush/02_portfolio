@@ -3,21 +3,30 @@
 }
 
 
-
 /* for mobile screen */
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 700px){
     
     #desktop-nav{
         display: none;
     }
 
-    #hamburger-nav{
+    #hamnav{
         display: flex;
         backdrop-filter: blur(5px);
+        padding: -10px;
+        flex-direction: column;
+        margin-top: -11px;
     }
-
+    
     #hamnav-menu{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin-bottom: -30px;
+        margin-top: -60px;
+    }
+    
+    #ham-div{
+        display: flex;
     }
 }
