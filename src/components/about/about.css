@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px){
 
-    #main-div{
+    #about-main-div{
         margin-top: -30px;
     }
 
@@ -43,19 +43,16 @@
     
 }
 
-@media screen and (max-width: 400px){
+ @media screen and (max-width: 400px){
 
     #main-scholar{
         flex-direction: column;
         align-items: center;
-        /* border: 1px solid black; */
-        
+        margin-bottom: auto;
     }
 
     .scholar{
         margin-right: 40px;
         margin-top: 12px;
-
-
     }
 }

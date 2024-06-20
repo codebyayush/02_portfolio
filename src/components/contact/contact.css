@@ -1,0 +1,34 @@
+@media screen and (max-width: 1000px){
+
+    .cont-main-div{
+        min-width: fit-content;
+    }
+    
+    .cont-mail{
+        font-size: 15px;
+       }
+
+   .cont-nav-items{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .cont-margin{
+        margin-right: 2.5rem;
+
+   }
+
+   .imgs{
+    margin-left: 1rem;
+    min-width: 2rem;
+    min-height: 2rem;
+   }
+
+}
+
+@media screen and (max-width: 400px){
+    .cont-mail{
+        font-size: 1rem;
+    }
+}

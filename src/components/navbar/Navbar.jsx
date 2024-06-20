@@ -16,6 +16,10 @@ const Navbar = () => {
             <a href="#About">About</a>
           </li>
           <li className="mr-10 text-2xl  hover:text-gray-500 hover:duration-300 hover:underline-offset-8 hover:underline">
+            <a href="#Experience">Experience</a>
+          </li>
+          
+          <li className="mr-10 text-2xl  hover:text-gray-500 hover:duration-300 hover:underline-offset-8 hover:underline">
             <a href="#Projects">Projects</a>
           </li>
           <li className="mr-10 text-2xl  hover:text-gray-500 hover:duration-300 hover:underline-offset-8 hover:underline">
@@ -36,6 +40,11 @@ const Navbar = () => {
               <li className="p-2 text-2xl  hover:text-gray-500 hover:duration-300 hover:underline-offset-8 hover:underline">
                 <a href="#About" onClick={() => setActive((p) => !p)}>
                   About
+                </a>
+              </li>
+              <li className="p-2 text-2xl  hover:text-gray-500 hover:duration-300 hover:underline-offset-8 hover:underline">
+                <a href="#Experience" onClick={() => setActive((p) => !p)}>
+                  Experience 
                 </a>
               </li>
               <li className="p-2 text-2xl  hover:text-gray-500 hover:duration-300 hover:underline-offset-8 hover:underline">
