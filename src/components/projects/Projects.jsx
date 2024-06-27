@@ -18,8 +18,8 @@ const Projects = () => {
             />
             <h1 className="proj-title font-medium text-3xl">Ecommerce App</h1>
             <div className="proj-buttons flex w-full justify-center">
-              <a href=""><button className="border-2 border-gray-900 h-12 m-4 w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Live Demo</button></a>
-              <a href=""><button className="border-2 border-gray-900 h-12 m-4 w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Github</button></a>
+              <a href="https://fir-hosting-2fdad.web.app/" target="_blank"><button className="border-2 border-gray-900 h-12 m-4 w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Live Demo</button></a>
+              <a href="" target="_blank"><button className="border-2 border-gray-900 h-12 m-4 w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Github</button></a>
             </div>
           </div>
           <div className="proj-div border-2 p-3 border-gray-800 flex flex-col justify-center items-center w-1/4 rounded-3xl m-2">
@@ -30,8 +30,8 @@ const Projects = () => {
             />
             <h1 className="proj-title font-medium text-3xl">Mailbox App</h1>
             <div className="proj-buttons flex w-full justify-center">
-              <a href=""><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Live Demo</button></a>
-              <a href=""><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Github</button></a>
+              <a href="" target="_blank"><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Live Demo</button></a>
+              <a href="https://github.com/codebyayush/08_mailbox_client_md" target="_blank"><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Github</button></a>
             </div>
           </div>
           <div className="proj-div border-2 p-3 border-gray-800 flex flex-col justify-center items-center w-1/4 rounded-3xl m-2">
@@ -42,8 +42,8 @@ const Projects = () => {
             />
             <h1 className="proj-title font-medium text-3xl">Expense Tracker App</h1>
             <div className="proj-buttons flex w-full justify-center">
-              <a href=""><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Live Demo</button></a>
-              <a href=""><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Github</button></a>
+              <a href="" target="_blank"><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Live Demo</button></a>
+              <a href="https://github.com/codebyayush/04_expensetracker_md" target="_blank"><button className="border-2 border-gray-900 h-12 m-4  w-32 text-center rounded-full hover:text-white hover:bg-zinc-700 transition duration-700">Github</button></a>
             </div>
           </div>
         </div>
