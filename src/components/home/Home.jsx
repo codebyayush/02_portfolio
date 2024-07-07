@@ -23,7 +23,7 @@ const Home = () => {
             Frontend Developer
           </h2>
           <div className="m-3">
-            <a href="/newResume.pdf" download>
+            <a href="/newResume5.pdf" download>
               <button className="border border-black rounded-full mr-4 font-medium p-3 m-1 hover:text-white hover:bg-zinc-700 transition duration-700">
                 Download CV
               </button>
